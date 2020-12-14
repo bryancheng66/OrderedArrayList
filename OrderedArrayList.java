@@ -20,4 +20,11 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
 	public void add(int index, T value){
 		add(value);
 	}
+
+	public T set(int index, T value){
+		T result = this.get(index);
+		remove(index);
+		add(value);
+		return result;
+	}
 }
