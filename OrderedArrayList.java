@@ -27,4 +27,12 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
 		add(value);
 		return result;
 	}
+
+	public OrderedArrayList(){
+		super();
+	}
+
+	public OrderedArrayList(int size){
+		super(size);
+	}
 }
