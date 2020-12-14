@@ -22,4 +22,12 @@ public class NoNullArrayList<T> extends ArrayList<T> {
 		}
 		return super.add(value);
 	}
+
+	public NoNullArrayList(){
+		super();
+	}
+
+	public NoNullArrayList(int size){
+		super(size);	
+	}
 }
