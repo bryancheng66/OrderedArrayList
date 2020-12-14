@@ -1,2 +1,2 @@
 # OrderedArrayList
-We talked about how to call a method from the parent class that we were overriding.
+We talked about how to call a method from the parent class that we were overriding by using super.
